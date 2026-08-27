@@ -1,0 +1,38 @@
+{
+  "kind": "merklemesh/mesh/1",
+  "built_at": 1787796485874,
+  "leaves": [
+    {
+      "cell_id": "bilge.level",
+      "chain_hash": "7b8966bb190d942468daff4ecf89f1e669e71bf4e6d630368b0990fe9cadae54",
+      "entries": 3,
+      "leaf": "cfedbae50a3fa15087b66470797a002fa5d1e13a810412da70c56012753e1c22"
+    },
+    {
+      "cell_id": "ghost.cell",
+      "chain_hash": "7de45a237f9bfc9f657d23b289cba780655a0f4fc1498811b863a1b3250b49df",
+      "entries": 0,
+      "leaf": "a37c746e5a323cfaa56495e9a174dd4882b543a4601979a09c37de9f4b8b647c"
+    },
+    {
+      "cell_id": "radio.status",
+      "chain_hash": "67260417c540c1d95a409872bb20a83595eb87f0abbe8e07e347944990b37367",
+      "entries": 2,
+      "leaf": "92f6b8633c1faaf70f5531eabe0e309a5a7c7c61b6ddc8e700306d6d2f2959a7"
+    },
+    {
+      "cell_id": "sonar.range",
+      "chain_hash": "cf541a82a1b2ae9707c51ae216bec4559322a691a1e15231563dc043b23862a5",
+      "entries": 2,
+      "leaf": "dccc0135564ba06f373927777828e508aed57d6cd0bf3c1bb28759be6fb42565"
+    },
+    {
+      "cell_id": "void.cell",
+      "chain_hash": "6d51a1736e50331089b3e5cd47be2f84cc043fed0cf17f2d6f07a49a50be3a19",
+      "entries": 0,
+      "leaf": "6df0e7608ea2d8f0762493bfc18c3bbc1a5afe1c53b5aa22408483846a0a172b"
+    }
+  ],
+  "root": "04c9ee1df4c06fd0516bcf23d2cda6f6c35a7c2a244ad734d3925202d36e5635",
+  "skipped": []
+}

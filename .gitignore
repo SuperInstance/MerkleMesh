@@ -1,1 +1,3 @@
-node_modules/\n.env\n*.log\ncoverage/
+node_modules/
+dist/
+*.tsbuildinfo
