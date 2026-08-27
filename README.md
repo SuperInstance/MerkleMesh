@@ -4,14 +4,18 @@
 journals into a single Merkle root, and proves that any one journal is
 included in it — with nothing but hashes.
 
+```mermaid
+flowchart LR
+    b1["boat-1.jsonl<br/>hash-chained journal"] -->|chain hash| m["mesh<br/>leaves sorted by cell id"]
+    b2["boat-2.jsonl"] -->|chain hash| m
+    b3["boat-3.jsonl"] -->|chain hash| m
+    m --> root["one fleet root<br/>04c9ee1d…"]
+    root -.->|sibling path| p["prove boat-3 is in root<br/>verified locally, no network"]
+    b3 -.-> p
 ```
-boat-1.jsonl  ── chain hash ──┐
-boat-2.jsonl  ── chain hash ──┼──► mesh ──► one fleet root
-boat-3.jsonl  ── chain hash ──┘
-                 │
-                 └── "prove boat-3 is in root 04c9ee1d…"
-                     → sibling path, verified locally, no network
-```
+
+<!-- mermaid replaces the old ASCII sketch; the metaphor is unchanged:
+     many boats, one root, proofs that never leave the wheelhouse. -->
 
 ## What it actually is
 
