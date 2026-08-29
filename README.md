@@ -4,6 +4,10 @@
 journals into a single Merkle root, and proves that any one journal is
 included in it — with nothing but hashes.
 
+<p align="center">
+  <img src="assets/images/hero.jpg" width="720" alt="Many lines of ledger-light from distant boats, braided into one glowing knot on the wheelhouse chart desk">
+</p>
+
 ```mermaid
 flowchart LR
     b1["boat-1.jsonl<br/>hash-chained journal"] -->|chain hash| m["mesh<br/>leaves sorted by cell id"]
